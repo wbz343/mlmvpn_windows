@@ -4,141 +4,50 @@
 
   const TEXT = {
     zh: {
-      'راهنما': '帮助',
-      'درباره ما': '关于',
-      'بستن منو': '关闭菜单',
-      'تنظیمات نوتیفیکیشن': '通知设置',
-      'دسترسی\nویندوز': 'Windows 授权',
-      'تب جدید': '新建标签',
-      'کپی تب فعلی': '复制当前标签',
-      'تنظیمات اسکن': '扫描设置',
-      'تاریخچه اسکن‌ها': '扫描历史',
-      'تست سرعت': '速度测试',
-      'تنظیمات': '设置',
-      'ورژن فعلی برنامه MLMVPN شما': '当前软件版本',
-      'جهت مشاهده آخرین تغییرات': '查看最新更新',
-      'انتخاب آیپی ثابت': '选择固定 IP',
-      'تست و انتخاب آیپی برای قفل لوکیشن': '测试并选择用于定位锁定的 IP',
-      'پاک‌سازی عمیق DNS': '深度 DNS 清理',
-      'انتخاب DNS و پاک کردن ته‌مانده‌ها': '选择 DNS 并清理残留项',
-      'دیاگ اینترنت': '网络诊断',
-      'وقتی وصل است ولی صفحه‌ای باز نمی‌شود': '网络已连接但页面无法打开时',
-      'لیست تغییرات': '更新日志',
-      'تازه‌ها و اصلاحات هر نسخه': '每个版本的新功能与修复',
-      'جست‌وجو': '搜索',
-      'چیزی پیدا نشد.': '未找到结果。',
-      'صفحه نمایش': '显示',
-      'شبکه': '网络',
-      'تنظیمات پیشرفته VPN': '高级 VPN 设置',
-      'مصرف': '流量',
-      'سیستم': '系统',
-      'درباره': '关于',
-      'اسکن': '扫描',
-      'برنامه': '应用',
-      'V2Ray پیشرفته': 'V2Ray 高级设置',
-      'ذخیره‌ی خودکار': '自动保存',
-      'ذخیره‌ی خودکار حین اسکن': '扫描时自动保存',
-      'نتایج اسکنِ در حال اجرا مرتب در تاریخچه ذخیره می‌شوند.': '正在进行的扫描结果会持续保存到历史记录。',
-      'هر چند دقیقه یک بار': '每隔几分钟',
-      'دقیقه': '分钟',
-      'پایان هر اسکن همیشه در تاریخچه ذخیره می‌شود. هر اسکن فقط یک مورد در تاریخچه دارد و در صورت تکرار، آخرین نسخه جایگزین می‌شود.': '每次扫描结束后总会保存到历史记录，每次扫描只保留一条记录，重复扫描会覆盖旧记录。',
-      'قطعی اینترنت': '网络中断',
-      'توقف هنگام قطعی اینترنت': '网络中断时停止',
-      'اگر حین اسکن کارت شبکه قطع شود، اسکن می‌ایستد و با وصل شدن دوباره ادامه پیدا می‌کند.': '若扫描过程中网络卡被断开，扫描会暂停并在恢复后继续。',
-      'ترمینال اسکنر': '扫描终端',
-      'همهٔ روش‌ها': '全部方式',
-      'زبان سیستم': '系统语言',
-      'فارسی': 'فار西语',
-      'English': 'English',
+      '帮助': '帮助',
+      '关于': '关于',
+      '关闭菜单': '关闭菜单',
+      '语言 / 切换语言': '语言 / 切换语言',
       '中文': '中文',
+      'فارسی': 'فارسی',
+      'English': 'English',
+      '语言': '语言',
       '切换语言': '切换语言',
-      'تغییر زبان': '更改语言',
-      'دسترس‌پذیری': '可访问性',
-      'تغییر زبان / 切换语言': '切换语言 / تغییر زبان',
-      'منو': '菜单',
-      'بخش قبلی': '上一节',
-      'بخش بعدی': '下一节',
-      'پیش‌فرض': '默认',
-      'خودکار': '自动',
-      'روشن': '亮色',
-      'تاریک': '深色',
-      'حساب کلادفلر': 'Cloudflare 账户',
-      'کلادفلر، ورکرها و بیشتر': 'Cloudflare、Workers 及更多',
-      'منابع حساب': '账户资源',
-      'دسترسی ویندوز': 'Windows 访问',
-      'افزودن زبان': '添加语言',
-      'حالت‌های زبان': '语言模式',
-      'پیشنهادات': '建议',
-      'زبان': '语言',
-      'کمک': '帮助'
+      '更改语言': '更改语言',
+      '系统语言': '系统语言',
+      '菜单': '菜单',
+      '通知设置': '通知设置',
+      '扫描设置': '扫描设置',
+      '扫描历史': '扫描历史',
+      '速度测试': '速度测试',
+      '设置': '设置',
+      '新建标签': '新建标签',
+      '复制当前标签': '复制当前标签',
+      '版本': '版本',
+      '更新日志': '更新日志'
     },
     fa: {
       '帮助': 'راهنما',
       '关于': 'درباره ما',
       '关闭菜单': 'بستن منو',
+      '语言 / 切换语言': 'زبان / تغییر زبان',
+      '中文': 'چینی',
+      'فارسی': 'فارسی',
+      'English': 'انگلیسی',
+      '语言': 'زبان',
+      '切换语言': 'تغییر زبان',
+      '更改语言': 'تغییر زبان',
+      '系统语言': 'زبان سیستم',
+      '菜单': 'منو',
       '通知设置': 'تنظیمات نوتیفیکیشن',
-      'Windows 授权': 'دسترسی ویندوز',
-      '新建标签': 'تب جدید',
-      '复制当前标签': 'کپی تب فعلی',
       '扫描设置': 'تنظیمات اسکن',
       '扫描历史': 'تاریخچه اسکن‌ها',
       '速度测试': 'تست سرعت',
       '设置': 'تنظیمات',
-      '当前软件版本': 'ورژن فعلی برنامه MLMVPN شما',
-      '查看最新更新': 'جهت مشاهده آخرین تغییرات',
-      '选择固定 IP': 'انتخاب آیپی ثابت',
-      '测试并选择用于定位锁定的 IP': 'تست و انتخاب آیپی برای قفل لوکیشن',
-      '深度 DNS 清理': 'پاک‌سازی عمیق DNS',
-      '选择 DNS 并清理残留项': 'انتخاب DNS و پاک کردن ته‌مانده‌ها',
-      '网络诊断': 'دیاگ اینترنت',
-      '网络已连接但页面无法打开时': 'وقتی وصل است ولی صفحه‌ای باز نمی‌شود',
-      '更新日志': 'لیست تغییرات',
-      '每个版本的新功能与修复': 'تازه‌ها و اصلاحات هر نسخه',
-      '搜索': 'جست‌وجو',
-      '未找到结果。': 'چیزی پیدا نشد.',
-      '显示': 'صفحه نمایش',
-      '网络': 'شبکه',
-      '高级 VPN 设置': 'تنظیمات پیشرفته VPN',
-      '流量': 'مصرف',
-      '系统': 'سیستم',
-      '关于': 'درباره',
-      '扫描': 'اسکن',
-      '应用': 'برنامه',
-      'V2Ray 高级设置': 'V2Ray پیشرفته',
-      '自动保存': 'ذخیره‌ی خودکار',
-      '扫描时自动保存': 'ذخیره‌ی خودکار حین اسکن',
-      '正在进行的扫描结果会持续保存到历史记录。': 'نتایج اسکنِ در حال اجرا مرتب در تاریخچه ذخیره می‌شوند.',
-      '每隔几分钟': 'هر چند دقیقه یک بار',
-      '分钟': 'دقیقه',
-      '每次扫描结束后总会保存到历史记录，每次扫描只保留一条记录，重复扫描会覆盖旧记录。': 'پایان هر اسکن همیشه در تاریخچه ذخیره می‌شود. هر اسکن فقط یک مورد در تاریخچه دارد و در صورت تکرار، آخرین نسخه جایگزین می‌شود.',
-      '网络中断': 'قطعی اینترنت',
-      '网络中断时停止': 'توقف هنگام قطعی اینترنت',
-      '若扫描过程中网络卡被断开，扫描会暂停并在恢复后继续。': 'اگر حین اسکن کارت شبکه قطع شود، اسکن می‌ایستد و با وصل شدن دوباره ادامه پیدا می‌کند.',
-      '扫描终端': 'ترمینال اسکنر',
-      '全部方式': 'همهٔ روش‌ها',
-      '系统语言': 'زبان سیستم',
-      'فار西语': 'فارسی',
-      'English': 'English',
-      '中文': '中文',
-      '切换语言': 'تغییر زبان',
-      '更改语言': 'تغییر زبان',
-      '可访问性': 'دسترس‌پذیری',
-      '切换语言 / تغییر زبان': 'تغییر زبان / 切换语言',
-      '菜单': 'منو',
-      '上一节': 'بخش قبلی',
-      '下一节': 'بخش بعدی',
-      '默认': 'پیش‌فرض',
-      '自动': 'خودکار',
-      '亮色': 'روشن',
-      '深色': 'تاریک',
-      'Cloudflare 账户': 'حساب کلادفلر',
-      'Cloudflare、Workers 及更多': 'کلادفلر، ورکرها و بیشتر',
-      '账户资源': 'منابع حساب',
-      '添加语言': 'افزودن زبان',
-      '语言模式': 'حالت‌های زبان',
-      '建议': 'پیشنهادات',
-      '语言': 'زبان',
-      '帮助': 'کمک'
+      '新建标签': 'تب جدید',
+      '复制当前标签': 'کپی تب فعلی',
+      '版本': 'نسخه',
+      '更新日志': 'لیست تغییرات'
     }
   };
 
@@ -168,46 +77,84 @@
     return normalizeLang(safeGetItem(STORAGE_KEY, DEFAULT_LANG));
   }
 
-  function applyTextMapping(root) {
-    const lang = getLanguage();
-    const map = TEXT[lang] || TEXT.zh;
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
-    while (walker.nextNode()) {
-      const node = walker.currentNode;
-      const value = node.nodeValue || '';
-      if (!value.trim()) continue;
-      const translated = map[value.trim()];
-      if (translated) node.nodeValue = value.replace(value.trim(), translated);
-    }
+  function setLanguage(nextLang) {
+    const lang = normalizeLang(nextLang);
+    safeSetItem(STORAGE_KEY, lang);
+    applyLanguageState();
+    installLanguagePicker();
   }
 
-  function applyTranslations() {
-    const root = document.documentElement;
-    root.setAttribute('data-mv-lang', getLanguage());
-    root.setAttribute('dir', 'rtl');
-    root.lang = (getLanguage() === 'zh') ? 'zh-CN' : 'fa';
+  function applyLanguageState() {
+    const lang = getLanguage();
+    const html = document.documentElement;
+    html.lang = lang === 'zh' ? 'zh-CN' : 'fa';
+    html.setAttribute('dir', 'rtl');
+    html.setAttribute('data-mv-lang', lang);
 
-    applyTextMapping(root);
+    const map = TEXT[lang] || TEXT.zh;
+    const textNodes = [];
+    const walker = document.createTreeWalker(document.body || document.documentElement, NodeFilter.SHOW_TEXT, null);
+    while (walker.nextNode()) {
+      const n = walker.currentNode;
+      const t = n.nodeValue || '';
+      if (!t.trim()) continue;
+      if (map[t.trim()]) textNodes.push({ node: n, oldValue: t.trim(), newValue: map[t.trim()] });
+    }
+    textNodes.forEach(({ node, oldValue, newValue }) => {
+      node.nodeValue = (node.nodeValue || '').replace(oldValue, newValue);
+    });
 
-    const nodes = document.querySelectorAll('[data-mv-i18n]');
-    nodes.forEach((el) => {
-      const text = el.getAttribute('data-mv-i18n');
-      const map = TEXT[getLanguage()] || TEXT.zh;
-      const translated = map[text];
-      if (translated) el.textContent = translated;
+    document.querySelectorAll('[data-mv-i18n]').forEach((el) => {
+      const key = el.getAttribute('data-mv-i18n');
+      if (key && map[key]) {
+        el.textContent = map[key];
+      }
     });
   }
 
-  function setLanguage(lang) {
-    const next = normalizeLang(lang);
-    safeSetItem(STORAGE_KEY, next);
-    applyTranslations();
+  function installLanguagePicker() {
+    const menu = document.getElementById('main-menu');
+    if (!menu) return;
+
+    let btn = menu.querySelector('[data-mv-language-toggle]');
+    if (!btn) {
+      btn = document.createElement('button');
+      btn.type = 'button';
+      btn.setAttribute('data-mv-language-toggle', '1');
+      btn.className = 'w-full flex items-center gap-3 px-3 py-2.5 text-sm text-gs-text hover:bg-gs-bg hover:text-gs-primary rounded-lg transition-colors text-right';
+      btn.innerHTML = '<i class="ph-bold ph-translate text-lg"></i><div class="flex flex-col"><span class="font-bold">语言 / 切换语言</span><span class="text-[10px] text-gs-muted">中文 / فارسی / English</span></div>';
+      btn.onclick = function () {
+        const next = getLanguage() === 'zh' ? 'fa' : 'zh';
+        setLanguage(next);
+      };
+      const closeBtn = menu.querySelector('button[onclick*="toggleMainMenu"]');
+      if (closeBtn) {
+        closeBtn.parentNode.insertBefore(btn, closeBtn);
+      } else {
+        menu.appendChild(btn);
+      }
+    }
+
+    const label = btn.querySelector('.font-bold');
+    if (label) {
+      label.textContent = getLanguage() === 'zh' ? '语言 / 切换语言' : 'زبان / تغییر زبان';
+    }
+    const sub = btn.querySelector('.text-gs-muted');
+    if (sub) {
+      sub.textContent = getLanguage() === 'zh' ? '中文 / فارسی / English' : 'چینی / فارسی / English';
+    }
   }
 
   function boot() {
     const lang = getLanguage();
     safeSetItem(STORAGE_KEY, lang);
-    applyTranslations();
+    applyLanguageState();
+    installLanguagePicker();
+    window.mvSetLanguage = setLanguage;
+    window.mvGetLanguage = getLanguage;
+    window.mvToggleLanguage = function () {
+      setLanguage(getLanguage() === 'zh' ? 'fa' : 'zh');
+    };
   }
 
   window.mvSetLanguage = setLanguage;
@@ -224,7 +171,8 @@
 
   const observer = new MutationObserver(function () {
     if (document.body) {
-      applyTranslations();
+      applyLanguageState();
+      installLanguagePicker();
     }
   });
 
